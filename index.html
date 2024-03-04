@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Department Management Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">Department Management Application</h1>
+
+    <div class="section">
+        <h2>Add New Department</h2>
+        <div class="form-group">
+            <input type="number" id="departmentId" placeholder="Department ID">
+            <input type="text" id="departmentName" placeholder="Department Name">
+            <button id="addDepartmentButton">Add Department</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Rename Department</h2>
+        <div class="form-group">
+            <input type="number" id="departmentIdToUpdate" placeholder="Department ID to Update">
+            <input type="text" id="newDepartmentName" placeholder="New Department Name">
+            <button id="renameDepartmentButton">Rename Department</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Department List</h2>
+        <button id="showDepartmentsButton">Show Departments</button>
+        <ul id="departmentList"></ul>
+    </div>
+
+    <div class="section">
+        <h2>Employees List</h2>
+        <button id="showEmployeeButton">Show Employees</button>
+        <ul id="employeeList"></ul>
+    </div>
+
+    <div class="section">
+        <h2>Add New Employee</h2>
+        <div class="form-group">
+            <input type="number" id="employeeId" placeholder="Enter Employee ID">
+            <input type="text" id="employeeName" placeholder="Enter Employee Name">
+            <input type="text" id="employeeEmail" placeholder="Enter Employee Email">
+            <input type="number" id="departmentEmployeeId" placeholder="Enter Department ID">
+            <input type="text" id="departmentDescription" placeholder="Enter Department Description">
+            <button id="addEmployeeButton">Add Employee</button>
+        </div>
+    </div>
+    <div class="section">
+        <h2>Delete Employee</h2>
+        <div class="form-group">
+            <input type="number" id="employeeIdToDelete" placeholder="Enter Employee ID to Delete">
+            <button id="deleteEmployeeButton">Delete Employee</button>
+        </div>
+    </div>
+    
+</div>
+
+<script src='employee.js'></script>
+<script src='script.js'></script>
+</body>
+</html>
