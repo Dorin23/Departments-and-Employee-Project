@@ -11,10 +11,10 @@ This project is a web-based management system designed to handle employees and d
 -REST API - Exposes endpoints for employee and department operations.
 
 **Technologies Used:**
--Java Spring Boot (REST API)
--MySQL Database
--JPA/Hibernate
--JavaScript
--HTML
--CSS
--Postman
+- Java Spring Boot (REST API)
+- MySQL Database
+- JPA/Hibernate
+- JavaScript
+- HTML
+- CSS
+- Postman
